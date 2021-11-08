@@ -5,7 +5,7 @@ package main
 #cgo LDFLAGS: -lleveldb
 #include "leveldb/c.h"
 #include <stdlib.h>
-#include<stdio.h>
+#include <stdio.h>
 */
 import "C"
 import (
